@@ -7,4 +7,5 @@
     <string name="label_empresa">Empresa:</string>
     <string name="label_email">E-mail:</string>
     <string name="novo_cartao">Novo Cartão</string>
+    <string name="label_sucess">Cartão cadastrado com sucesso</string>
 </resources>
