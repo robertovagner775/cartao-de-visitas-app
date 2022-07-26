@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Business Card</string>
     <string name="label_telefone">Telefone:</string>
     <string name="label_nome">Nome:</string>
     <string name="cart_o_de_visitas">Cartão de Visitas</string>
@@ -8,4 +8,5 @@
     <string name="label_email">E-mail:</string>
     <string name="novo_cartao">Novo Cartão</string>
     <string name="label_sucess">Cartão cadastrado com sucesso</string>
+    <string name="SHARE">compartilhar</string>
 </resources>

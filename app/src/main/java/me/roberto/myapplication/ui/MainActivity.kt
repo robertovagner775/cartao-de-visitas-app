@@ -6,6 +6,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import me.roberto.myapplication.App
 import me.roberto.myapplication.databinding.ActivityMainBinding
+import me.roberto.myapplication.util.Image
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnfb.setOnClickListener{
             val intent = Intent(this, addBussinesActivity::class.java)
             startActivity( intent)
+        }
+        adapter.listenerShare = { card ->
+            Image.share(this@MainActivity, card)
+
         }
 
     }
